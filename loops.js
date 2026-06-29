@@ -143,3 +143,20 @@ numbers.forEach(number => {
         seen.push(number);
     }
 });
+
+
+
+
+const words = ["apple", "banana", "apple", "orange", "banana", "apple"];
+
+const counts = {};
+
+words.forEach(word => {
+    if (counts[word]) {
+        counts[word]++;
+    } else {
+        counts[word] = 1;
+    }
+});
+
+console.log(counts);
