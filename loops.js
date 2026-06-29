@@ -86,3 +86,17 @@ numbers.forEach(number => {
 });
 
 console.log(doubled);
+
+
+
+const numbers = [2, 4, 6, 8, 10];
+
+let sum = 0;
+
+numbers.forEach(number => {
+    sum += number;
+});
+
+let average = sum / numbers.length;
+
+console.log(average);
