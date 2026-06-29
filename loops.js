@@ -100,3 +100,16 @@ numbers.forEach(number => {
 let average = sum / numbers.length;
 
 console.log(average);
+
+
+
+
+const words = ["cat", "elephant", "dog", "giraffe"];
+
+let longest = words[0];
+words.forEach(word => {
+    if (word.length > longest.length) {
+        longest = word;
+    }
+});
+console.log(longest);
