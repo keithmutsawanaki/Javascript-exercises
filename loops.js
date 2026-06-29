@@ -22,3 +22,14 @@ const numbers =[5,10,15,20,25]
 let count=0
 numbers.forEach(()=>{count++});
 console.log(count)
+
+
+
+const numbers= [12,45,7,89,23];
+let largest = numbers[0];
+numbers.forEach(number => {
+    if (number > largest) {
+        largest = number;
+    }
+});
+console.log(largest);
