@@ -128,3 +128,18 @@ marks.forEach(mark => {
 });
 
 console.log(passed);
+
+
+
+
+const numbers = [1, 2, 3, 2, 4, 5, 1];
+
+const seen = [];
+
+numbers.forEach(number => {
+    if (seen.includes(number)) {
+        console.log(number);
+    } else {
+        seen.push(number);
+    }
+});
