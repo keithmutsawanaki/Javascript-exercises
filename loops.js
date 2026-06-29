@@ -16,3 +16,9 @@ numbers.forEach(number => {
     sum += number;
 });
 console.log(sum);
+
+
+const numbers =[5,10,15,20,25]
+let count=0
+numbers.forEach(()=>{count++});
+console.log(count)
