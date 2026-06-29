@@ -54,3 +54,21 @@ names.forEach(name => {
         console.log(name);
     }
 });
+
+
+
+
+const letters = ["a", "b", "e", "g", "i", "o", "u"];
+
+let vowelCount = 0;
+
+letters.forEach(letter => {
+    if (
+        letter === "a" ||
+        letter === "e" ||
+        letter === "i" ||
+        letter === "o" ||
+        letter === "u"
+    ) {
+        vowelCount++; }
+});
