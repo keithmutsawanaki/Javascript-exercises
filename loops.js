@@ -113,3 +113,18 @@ words.forEach(word => {
     }
 });
 console.log(longest);
+
+
+
+
+const marks = [34, 56, 78, 45, 90, 50];
+
+let passed = 0;
+
+marks.forEach(mark => {
+    if (mark >= 50) {
+        passed++;
+    }
+});
+
+console.log(passed);
