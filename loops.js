@@ -44,3 +44,13 @@ numbers.forEach(number => {
     }
 });
 console.log("Even Numbers =", evenCount);
+
+
+
+const names = ["Alice", "Bob", "Andrew", "Charlie", "Amy"];
+
+names.forEach(name => {
+    if (name.startsWith("A")) {
+        console.log(name);
+    }
+});
